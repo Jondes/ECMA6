@@ -1,0 +1,25 @@
+var testFunction = function(){
+console.log('this works');
+};
+undefined
+
+testFunction()
+this works
+------------------------------------
+function testFunction2(){
+  console.log('this works too'); 
+}
+
+testFunction()
+this works too
+-------------------------------
+let testFunction3 = () => {
+   console.log('this works');
+}
+---------------------------------
+let testFunction4 = () => 'this works';
+--------------------------------------
+let thisIsFunction = (param1, param2) => param1+ param2;
+undefined
+thisIsFunction(10,20)
+30

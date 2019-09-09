@@ -1,0 +1,12 @@
+var age = 18;
+undefined
+var name = "John";
+undefined
+var email = `Hello ${name},
+Thank you for joing our site. You are eligible as you 
+are above ${age}`;
+
+email
+"Hello John,
+Thank you for joing our site. You are eligible as you 
+are above 18"

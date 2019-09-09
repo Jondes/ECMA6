@@ -1,0 +1,21 @@
+Modules are typically represented in Javascript files.
+
+Variables, functions and classes can be exported as 
+modules.
+
+We use the export statement to expose the module and 
+make it available to the other parts of the system.
+
+A simple export
+export{module1, module2};
+
+Exproting multiple variables
+export{module1, module2};
+
+Exporting variables and aliases
+export{module1 as obj1,module1 as obj2};
+
+A function export
+export function(){};
+
+export * from 'submodule'; 
